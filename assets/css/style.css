@@ -508,8 +508,8 @@ h1, h2, h3 {
 .hero-silhouette-stage {
   position: relative;
   width: 100%;
-  max-width: 580px;
-  margin: 0 auto;
+  max-width: 880px; /* ~52% larger than the previous 580px stage */
+  margin: 0 auto 0 -2.25rem; /* nudge portrait slightly toward the copy */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1518,6 +1518,7 @@ textarea.field { min-height: 7.5rem; resize: vertical; }
 
 @media (max-width: 640px) {
   .partner-row { grid-template-columns: 1fr 1fr; }
+  .hero-silhouette-stage { max-width: 100%; margin: 0 auto; }
   .metrics { grid-template-columns: 1fr; }
   .method { grid-template-columns: 1fr; }
   .subscribe-row { flex-direction: column; }
