@@ -1,0 +1,6 @@
+node_modules/
+scratch/
+.gemini/
+audit/
+.DS_Store
+*.log

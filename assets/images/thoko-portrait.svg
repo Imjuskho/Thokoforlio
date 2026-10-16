@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial still: morning light over water, for Thokozani Phanga</title>
+  <desc id="desc">Abstract lake and paper composition in navy, teal, and warm rag  not a portrait photograph.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8D9B8"/>
+      <stop offset="38%" stop-color="#C5D4C8"/>
+      <stop offset="72%" stop-color="#1A5C5C"/>
+      <stop offset="100%" stop-color="#0A1C2E"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0A1C2E"/>
+      <stop offset="45%" stop-color="#147070"/>
+      <stop offset="100%" stop-color="#0D3A48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <ellipse cx="620" cy="210" rx="90" ry="90" fill="#F4E6C3" opacity="0.85"/>
+  <ellipse cx="620" cy="210" rx="52" ry="52" fill="#FAF6EE" opacity="0.35"/>
+  <path d="M0 520 C 180 480 280 560 400 540 C 560 515 640 600 800 560 L 800 1000 L 0 1000 Z" fill="url(#water)"/>
+  <path d="M0 620 C 220 600 340 680 520 650 C 680 625 740 700 800 680" fill="none" stroke="#DE932A" stroke-width="1.2" opacity="0.55"/>
+  <path d="M0 710 C 160 690 300 760 480 730 C 640 705 720 760 800 740" fill="none" stroke="#FAF6EE" stroke-width="0.8" opacity="0.25"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="rgba(250,246,238,0.35)" stroke-width="1"/>
+  <text x="72" y="920" font-family="Georgia, serif" font-size="22" fill="#FAF6EE" letter-spacing="4">LILONGWE · OXFORD</text>
+</svg>

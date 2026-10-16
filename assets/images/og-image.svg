@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="og-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2742"/>
+      <stop offset="60%" stop-color="#143254"/>
+      <stop offset="100%" stop-color="#0A1B2E"/>
+    </linearGradient>
+    <pattern id="og-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(220, 230, 228, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-grad)"/>
+  <rect width="1200" height="630" fill="url(#og-grid)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="180" r="220" fill="none" stroke="rgba(30, 122, 122, 0.25)" stroke-width="2"/>
+  <circle cx="1050" cy="180" r="160" fill="none" stroke="rgba(232, 163, 61, 0.2)" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <circle cx="1120" cy="480" r="140" fill="#1E7A7A" opacity="0.12"/>
+
+  <!-- Brand badge -->
+  <g transform="translate(100, 90)">
+    <rect x="0" y="0" width="380" height="38" rx="19" fill="rgba(30, 122, 122, 0.3)" stroke="#1E7A7A" stroke-width="1"/>
+    <text x="24" y="24" font-family="'Inter', -apple-system, sans-serif" font-size="13" font-weight="600" fill="#DCE6E4" letter-spacing="1.5">LILONGWE, MALAWI • UNIVERSITY OF OXFORD</text>
+  </g>
+
+  <!-- Title & Headline -->
+  <g transform="translate(100, 200)">
+    <text font-family="'Fraunces', Georgia, serif" font-size="64" font-weight="700" fill="#F7F2E9" letter-spacing="-1">
+      <tspan x="0" dy="0">Thokozani Phanga</tspan>
+    </text>
+
+    <text font-family="'Fraunces', Georgia, serif" font-size="34" font-weight="400" font-style="italic" fill="#E8A33D">
+      <tspan x="0" dy="56">Health Communications Specialist</tspan>
+    </text>
+
+    <text font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="#DCE6E4" opacity="0.9">
+      <tspan x="0" dy="64">Turning clinical evidence, research, and donor reporting</tspan>
+      <tspan x="0" dy="34">into knowledge people can understand and act on.</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom credentials -->
+  <g transform="translate(100, 500)">
+    <line x1="0" y1="0" x2="1000" y2="0" stroke="rgba(220, 230, 228, 0.2)" stroke-width="1"/>
+    <text x="0" y="42" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#E8A33D" letter-spacing="2">FOUNDER, ZISAMALE HEALTH</text>
+    <text x="320" y="42" font-family="'Inter', sans-serif" font-size="14" fill="#DCE6E4">Mastercard Foundation Scholar, Oxford</text>
+    <text x="750" y="42" font-family="'Inter', sans-serif" font-size="14" fill="#DCE6E4">BSocSc, University of Malawi</text>
+  </g>
+</svg>

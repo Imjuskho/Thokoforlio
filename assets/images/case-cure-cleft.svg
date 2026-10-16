@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Cover artwork for Beit CURE Malawi Cleft Service Line launch">
+  <defs>
+    <linearGradient id="cure-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E3346"/>
+      <stop offset="100%" stop-color="#0F2742"/>
+    </linearGradient>
+    <linearGradient id="teal-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E7A7A"/>
+      <stop offset="100%" stop-color="#3AA39F"/>
+    </linearGradient>
+    <radialGradient id="sun-glow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#E8A33D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0F2742" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dot-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="rgba(220, 230, 228, 0.12)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="500" fill="url(#cure-grad)"/>
+  <rect width="800" height="500" fill="url(#sun-glow)"/>
+  <rect width="800" height="500" fill="url(#dot-grid)"/>
+
+  <!-- Stylized Smile & Sunrise Arc Formations -->
+  <g transform="translate(620, 250)">
+    <!-- Radiating smile arcs -->
+    <path d="M -160 40 Q 0 160 160 40" fill="none" stroke="#E8A33D" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -130 10 Q 0 110 130 10" fill="none" stroke="#1E7A7A" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M -100 -20 Q 0 60 100 -20" fill="none" stroke="#DCE6E4" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="0" cy="-60" r="42" fill="url(#teal-glow)" opacity="0.85"/>
+    <circle cx="0" cy="-60" r="18" fill="#E8A33D"/>
+  </g>
+
+  <!-- Precision Line & Healing motif -->
+  <path d="M 400 480 C 480 380 540 280 620 250" fill="none" stroke="rgba(220, 230, 228, 0.25)" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Editorial Typography -->
+  <line x1="60" y1="60" x2="160" y2="60" stroke="#1E7A7A" stroke-width="2"/>
+  <text x="60" y="90" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#1E7A7A" text-transform="uppercase">STRATEGIC COMMUNICATIONS • LAUNCH</text>
+  
+  <text x="60" y="160" font-family="'Fraunces', Georgia, serif" font-size="36" font-weight="600" fill="#F7F2E9" line-height="1.2">
+    <tspan x="60" dy="0">Beit CURE Malawi:</tspan>
+    <tspan x="60" dy="46">Cleft Service Line</tspan>
+  </text>
+
+  <text x="60" y="270" font-family="'Inter', -apple-system, sans-serif" font-size="15" fill="#DCE6E4" opacity="0.85">
+    <tspan x="60" dy="0">Transforming clinical protocol into patient</tspan>
+    <tspan x="60" dy="24">dignity and family action in Malawi.</tspan>
+  </text>
+
+  <!-- Stat highlight card inside cover -->
+  <g transform="translate(60, 340)">
+    <rect x="0" y="0" width="280" height="64" rx="8" fill="rgba(15, 39, 66, 0.7)" stroke="rgba(30, 122, 122, 0.6)" stroke-width="1"/>
+    <text x="20" y="32" font-family="'Fraunces', Georgia, serif" font-size="26" font-weight="700" fill="#E8A33D">30+ Children</text>
+    <text x="20" y="50" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="#DCE6E4" letter-spacing="0.5">TREATED IN INAUGURAL COHORT</text>
+  </g>
+
+  <!-- Bottom boundary rule -->
+  <line x1="60" y1="440" x2="740" y2="440" stroke="rgba(220, 230, 228, 0.15)" stroke-width="1"/>
+</svg>

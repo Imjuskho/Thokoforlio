@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Cover artwork for 2025 CURE Children's Hospital Annual Report">
+  <defs>
+    <linearGradient id="annual-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2742"/>
+      <stop offset="50%" stop-color="#163456"/>
+      <stop offset="100%" stop-color="#0B1A2C"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8A33D"/>
+      <stop offset="100%" stop-color="#F4C77E"/>
+    </linearGradient>
+    <pattern id="lines-grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(220, 230, 228, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="500" fill="url(#annual-grad)"/>
+  <rect width="800" height="500" fill="url(#lines-grid)"/>
+
+  <!-- Editorial Publication Book Layout Motif -->
+  <g transform="translate(510, 80)">
+    <!-- Book shadow & frame -->
+    <rect x="0" y="0" width="220" height="320" rx="4" fill="#0A1826" stroke="rgba(247, 242, 233, 0.2)" stroke-width="1.5" filter="drop-shadow(0 15px 25px rgba(0,0,0,0.5))"/>
+    
+    <!-- Report Cover Detail Elements -->
+    <rect x="18" y="18" width="184" height="284" fill="#0E243A" stroke="rgba(232, 163, 61, 0.3)" stroke-width="1"/>
+    <line x1="32" y1="42" x2="80" y2="42" stroke="#E8A33D" stroke-width="2"/>
+    <text x="32" y="65" font-family="'Inter', sans-serif" font-size="8" letter-spacing="2" fill="#E8A33D" font-weight="700">ANNUAL REPORT</text>
+    <text x="32" y="105" font-family="'Fraunces', serif" font-size="28" font-weight="700" fill="#F7F2E9">2025</text>
+    <text x="32" y="125" font-family="'Inter', sans-serif" font-size="9" fill="#DCE6E4" opacity="0.8">Beit CURE Malawi</text>
+    
+    <!-- Abstract data graph inside report preview -->
+    <path d="M 32 230 L 65 200 L 98 215 L 132 170 L 170 185" fill="none" stroke="#1E7A7A" stroke-width="2"/>
+    <circle cx="170" cy="185" r="3" fill="#E8A33D"/>
+    <text x="32" y="270" font-family="'Inter', sans-serif" font-size="8" fill="#F7F2E9" opacity="0.6">GLOBAL DONOR EDITION</text>
+  </g>
+
+  <!-- Editorial Typography -->
+  <line x1="60" y1="60" x2="160" y2="60" stroke="#E8A33D" stroke-width="2"/>
+  <text x="60" y="90" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#E8A33D" text-transform="uppercase">EDITORIAL LEADERSHIP • PUBLICATION</text>
+  
+  <text x="60" y="160" font-family="'Fraunces', Georgia, serif" font-size="34" font-weight="600" fill="#F7F2E9" line-height="1.2">
+    <tspan x="60" dy="0">2025 CURE Hospital</tspan>
+    <tspan x="60" dy="46">Annual Report</tspan>
+  </text>
+
+  <text x="60" y="270" font-family="'Inter', -apple-system, sans-serif" font-size="15" fill="#DCE6E4" opacity="0.85">
+    <tspan x="60" dy="0">Story curation, leadership voice, and visual direction</tspan>
+    <tspan x="60" dy="24">distributed to partners and donors globally.</tspan>
+  </text>
+
+  <!-- Stat highlight card inside cover -->
+  <g transform="translate(60, 340)">
+    <rect x="0" y="0" width="280" height="64" rx="8" fill="rgba(15, 39, 66, 0.7)" stroke="rgba(232, 163, 61, 0.4)" stroke-width="1"/>
+    <text x="20" y="32" font-family="'Fraunces', Georgia, serif" font-size="26" font-weight="700" fill="#F7F2E9">~2,500</text>
+    <text x="20" y="50" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="#E8A33D" letter-spacing="0.5">SURGERIES DOCUMENTED PER YEAR</text>
+  </g>
+
+  <!-- Bottom boundary rule -->
+  <line x1="60" y1="440" x2="740" y2="440" stroke="rgba(220, 230, 228, 0.15)" stroke-width="1"/>
+</svg>

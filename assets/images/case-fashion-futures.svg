@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Cover artwork for Fashion Futures: Namibia research report">
+  <defs>
+    <linearGradient id="bg-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141E28"/>
+      <stop offset="100%" stop-color="#0F2742"/>
+    </linearGradient>
+    <linearGradient id="terracotta-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4553A"/>
+      <stop offset="100%" stop-color="#E8A33D"/>
+    </linearGradient>
+    <pattern id="grid-pattern-1" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(220, 230, 228, 0.08)" stroke-width="1"/>
+    </pattern>
+    <clipPath id="arch-clip">
+      <path d="M 460 80 C 460 80 720 80 720 280 L 720 440 L 460 440 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="500" fill="url(#bg-grad-1)"/>
+  <rect width="800" height="500" fill="url(#grid-pattern-1)"/>
+
+  <!-- Geometric Abstract Architectural Shapes -->
+  <circle cx="680" cy="120" r="160" fill="none" stroke="rgba(232, 163, 61, 0.15)" stroke-width="1.5"/>
+  <circle cx="680" cy="120" r="110" fill="none" stroke="rgba(30, 122, 122, 0.25)" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Woven / Textile Curves -->
+  <path d="M 380 500 C 420 340 560 260 760 260" fill="none" stroke="url(#terracotta-grad)" stroke-width="3" opacity="0.85"/>
+  <path d="M 420 500 C 460 380 580 300 800 300" fill="none" stroke="#1E7A7A" stroke-width="2" opacity="0.6"/>
+  <path d="M 460 500 C 500 420 620 360 820 360" fill="none" stroke="#F7F2E9" stroke-width="1" opacity="0.3"/>
+
+  <!-- Fabric / Editorial Geometry Silhouette -->
+  <g opacity="0.9">
+    <path d="M 520 450 L 520 220 Q 520 140 600 140 Q 680 140 680 220 L 680 450 Z" fill="#173554" stroke="rgba(247, 242, 233, 0.15)" stroke-width="1.5"/>
+    <path d="M 560 450 L 560 250 Q 560 190 620 190 Q 680 190 680 250 L 680 450 Z" fill="url(#terracotta-grad)" opacity="0.35"/>
+    <circle cx="600" cy="140" r="32" fill="#E8A33D" opacity="0.9"/>
+  </g>
+
+  <!-- Editorial Framing & Typography -->
+  <line x1="60" y1="60" x2="160" y2="60" stroke="#E8A33D" stroke-width="2"/>
+  <text x="60" y="90" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="3" fill="#E8A33D" text-transform="uppercase">RESEARCH REPORT • NATAAL</text>
+  
+  <text x="60" y="160" font-family="'Fraunces', Georgia, serif" font-size="38" font-weight="600" fill="#F7F2E9" line-height="1.15">
+    <tspan x="60" dy="0">Fashion Futures:</tspan>
+    <tspan x="60" dy="46">Namibia</tspan>
+  </text>
+
+  <text x="60" y="270" font-family="'Inter', -apple-system, sans-serif" font-size="15" fill="#DCE6E4" opacity="0.85">
+    <tspan x="60" dy="0">Qualitative research on youth engagement</tspan>
+    <tspan x="60" dy="24">and sustainability in Windhoek’s creative scene.</tspan>
+  </text>
+
+  <!-- Metadata tag pills -->
+  <g transform="translate(60, 360)">
+    <rect x="0" y="0" width="145" height="32" rx="16" fill="rgba(30, 122, 122, 0.25)" stroke="#1E7A7A" stroke-width="1"/>
+    <text x="72" y="20" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#DCE6E4" text-anchor="middle">BRITISH COUNCIL</text>
+
+    <rect x="155" y="0" width="130" height="32" rx="16" fill="rgba(196, 85, 58, 0.2)" stroke="#C4553A" stroke-width="1"/>
+    <text x="220" y="20" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#F7F2E9" text-anchor="middle">NOV 2019</text>
+  </g>
+
+  <!-- Accent line -->
+  <line x1="60" y1="440" x2="740" y2="440" stroke="rgba(220, 230, 228, 0.15)" stroke-width="1"/>
+</svg>

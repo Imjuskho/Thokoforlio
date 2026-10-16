@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" role="img" aria-label="Mastercard Foundation">
+  <!-- Mastercard Foundation Brand Mark -->
+  <g transform="translate(4, 6)">
+    <!-- Red circle -->
+    <circle cx="24" cy="24" r="21" fill="#EB001B"/>
+    <!-- Yellow/Orange circle -->
+    <circle cx="48" cy="24" r="21" fill="#F79E1B"/>
+    <!-- Intersection lens -->
+    <path d="M36 6.78 C41.6 11.2 45 17.2 45 24 C45 30.8 41.6 36.8 36 41.22 C30.4 36.8 27 30.8 27 24 C27 17.2 30.4 11.2 36 6.78 Z" fill="#FF5F00"/>
+  </g>
+  <!-- Typography "mastercard foundation" -->
+  <g transform="translate(82, 0)">
+    <text x="0" y="27" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" letter-spacing="-0.02em" fill="currentColor">mastercard</text>
+    <text x="0" y="44" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" letter-spacing="0.04em" fill="currentColor" opacity="0.85">foundation</text>
+  </g>
+</svg>
